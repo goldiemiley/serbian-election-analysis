@@ -36,8 +36,3 @@ These are the inputs that the forecast needs and does not have. Each one is stat
 * **Covariates for turnout and swing** (census, age, education, earnings in `municipality_context_2022` and `context_series`) become identifiable only with several elections of unit-level totals (item 7).
 * **Verified family map** (37 rows) and **origin weights** (14 rows): review and set `mapping_status` to reviewed; the readiness matrix will stop flagging them PROVISIONAL.
 
-## E. Things I could not verify while building this
-
-* Whether BigQuery accepts every SQL statement (no credentials were available); the `AS cast` alias in the original `analysis.sql` uses a word I believe is reserved in BigQuery Standard SQL; it failed in DuckDB, but the behaviour on BigQuery itself was not observed.
-* The exact ballot numbers beyond the first three lists (reports disagree, S05).
-* Whether the SPS list ("Ivica Dačić – Faktor stabilnosti") will in fact lose supporters to the student list; the model only encodes the three scenarios in `cfg_event_scenarios`.
