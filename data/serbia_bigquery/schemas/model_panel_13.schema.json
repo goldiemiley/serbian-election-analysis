@@ -1,0 +1,386 @@
+[
+  {
+    "name": "election_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "election_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "report_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Date of the official local total report; 2023 total uses final spreadsheet publication date."
+  },
+  {
+    "name": "geo_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Official RZS territory code stored as STRING. Join by code, not name."
+  },
+  {
+    "name": "municipality",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "registered_voters",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Published voter-register count, not census population or eligible resident population."
+  },
+  {
+    "name": "voters_turned_out",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Published voters who attended; may differ from ballots cast."
+  },
+  {
+    "name": "ballots_cast",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Published voters who voted / ballots in boxes. Denominator differs from turnout."
+  },
+  {
+    "name": "invalid_ballots",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "valid_ballots_reported",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Official published valid ballot count; retained even when list sum differs."
+  },
+  {
+    "name": "valid_ballots_from_lists",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Sum of all list vote counts. No discrepancy is silently repaired."
+  },
+  {
+    "name": "lead_list_votes",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "lead_vote_share_valid",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "lead_votes_per_registered",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "lead_vote_share_cast",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "turnout_rate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "voters_turned_out / registered_voters; fraction 0-1."
+  },
+  {
+    "name": "invalid_ballot_rate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "invalid_ballots / ballots_cast; fraction 0-1."
+  },
+  {
+    "name": "proxy_votes_excluding_mixed",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Electoral-family modelling scenario: SNS family plus documented SPS/SRS/VMSZ families. 2023 Dveri/Zavetnici joint list excluded. NULL when local membership is incomplete."
+  },
+  {
+    "name": "proxy_votes_including_mixed",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Same electoral-family scenario but includes the whole 2023 Dveri/Zavetnici list where Zavetnici joins the recent local coalition. This is not an identified party-level bound."
+  },
+  {
+    "name": "proxy_share_valid_excluding_mixed",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "proxy_share_valid_including_mixed",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "target_local_coalition_members",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "target_local_coalition_members_known",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 when the local total report enumerates the lead-list parties. Unknown dummies are NULL, not 0."
+  },
+  {
+    "name": "target_local_has_sps",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "target_local_has_srs",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "target_local_has_vmsz",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "target_local_has_zavetnici",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mixed_2023_list_scenario",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "repeat_local_vote_included",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "baseline_2023_registered_weight",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Fixed 2023 electorate size, suitable for within-sample electorate weighting; not a national representativeness weight."
+  },
+  {
+    "name": "quality_status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "eligible_for_default_model",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if source counts reconcile. Local Aranđelovac is 0 due to published four-vote discrepancy; baseline still retained."
+  },
+  {
+    "name": "eligible_for_proxy_model",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if counts reconcile and target local coalition membership is documented. For paired modelling require both rows of the pair to be eligible."
+  },
+  {
+    "name": "sample_13",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the selected 13 recent local-election territories, 0 otherwise. Selection indicator, not randomized treatment."
+  },
+  {
+    "name": "cohort_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for Mionica, Negotin and Sečanj."
+  },
+  {
+    "name": "cohort_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for the other ten selected local-election territories."
+  },
+  {
+    "name": "post_2023",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for dates after 2023-12-17. In the 26-row panel identical to is_local_election; do not estimate both coefficients."
+  },
+  {
+    "name": "is_local_election",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the recent local ballots, 0 for parliamentary ballots. Ballot type is confounded with time in this panel."
+  },
+  {
+    "name": "is_round_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2025-11-30. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "is_round_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2026-03-29. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "mun_70840",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_80373",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70033",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70068",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70327",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70572",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70602",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_80233",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70742",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_70785",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_71102",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mun_71366",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "census_year",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "population_census2022",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "adult_population_census2022",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "population_65_plus_census2022",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "urban_population_census2022",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "female_share_census2022",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "age65_plus_share_census2022",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "age20_34_share_census2022",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Sum of exact 20-24,25-29,30-34 age bands / census population. Does not approximate ages 18-19."
+  },
+  {
+    "name": "urban_share_census2022",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "tertiary_share_age15_plus_census2022",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Census higher + high education / total population aged 15+, not total population."
+  },
+  {
+    "name": "result_source_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "snapshot_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Download/analysis snapshot date. Old values can include revisions; this is not a reconstructed historical release vintage."
+  }
+]

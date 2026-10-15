@@ -1,0 +1,92 @@
+[
+  {
+    "name": "geo_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Official RZS territory code stored as STRING. Join by code, not name."
+  },
+  {
+    "name": "geo_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "parent_geo_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "region_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "geo_level",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "is_2023_leaf",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if the territory is a disjoint 2023 polling-station reporting unit. Sum these units for national totals; do not sum rollups as well."
+  },
+  {
+    "name": "is_special_electorate",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "has_2023_station_data",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "sample_13",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the selected 13 recent local-election territories, 0 otherwise. Selection indicator, not randomized treatment."
+  },
+  {
+    "name": "cohort_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for Mionica, Negotin and Sečanj."
+  },
+  {
+    "name": "cohort_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for the other ten selected local-election territories."
+  },
+  {
+    "name": "post_2023",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for dates after 2023-12-17. In the 26-row panel identical to is_local_election; do not estimate both coefficients."
+  },
+  {
+    "name": "is_local_election",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the recent local ballots, 0 for parliamentary ballots. Ballot type is confounded with time in this panel."
+  },
+  {
+    "name": "is_round_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2025-11-30. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "is_round_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2026-03-29. 2023 parliamentary baseline is the omitted round."
+  }
+]

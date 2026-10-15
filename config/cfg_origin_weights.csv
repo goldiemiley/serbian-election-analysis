@@ -1,0 +1,15 @@
+list_key,origin,weight,mapping_status,note
+aleksandar_vucic_ujedinjena_srbija,SNS_LED,1.0,proposed_unreviewed,SNS-led successor list.
+ivica_dacic_faktor_stabilnosti,SPS_LED,1.0,proposed_unreviewed,SPS-led successor list.
+studentska_lista,OPP_BROAD,1.0,proposed_unreviewed,New list. Geography assumed to follow the 2023 broad opposition list.
+studentska_lista,OPP_OTHER,0.5,proposed_unreviewed,Other opposition voters of 2023.
+studentska_lista,MI_GIN,0.5,proposed_unreviewed,Protest-vote list of 2023.
+studentska_lista,UNCLASSIFIED,0.5,proposed_unreviewed,Unclassified 2023 lists.
+studentska_lista,ABSTAIN,0.15,proposed_unreviewed,"Previous abstainers (per registered voter): the student list is assumed to draw on first-time and returning voters. Affects where votes fall, not the national level."
+evropska_srbija,OPP_BROAD,1.0,proposed_unreviewed,Successor of part of the 2023 broad opposition list.
+autenticna_desnica,NADA,1.0,proposed_unreviewed,Same leader as the 2023 NADA list.
+autenticna_desnica,DVERI_ZAVETNICI,0.3,proposed_unreviewed,Neighbouring national-right electorate.
+alternativa_za_srbiju,NARODNA_STRANKA,1.0,proposed_unreviewed,Narodna stranka is a component.
+bogoljub_karic_pss_bk,REGISTERED,1.0,proposed_unreviewed,No historical analog in the data: pattern proportional to the register.
+liberalno_zelena_stranka,REGISTERED,1.0,proposed_unreviewed,No historical analog in the data: pattern proportional to the register.
+cale_ovo_je_za_tebe,REGISTERED,1.0,proposed_unreviewed,No historical analog in the data: pattern proportional to the register.

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "election_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "election_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "report_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Date of the official local total report; 2023 total uses final spreadsheet publication date."
+  },
+  {
+    "name": "geo_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Official RZS territory code stored as STRING. Join by code, not name."
+  },
+  {
+    "name": "geo_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "geo_level",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "is_2023_leaf",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if the territory is a disjoint 2023 polling-station reporting unit. Sum these units for national totals; do not sum rollups as well."
+  },
+  {
+    "name": "registered_voters",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Published voter-register count, not census population or eligible resident population."
+  },
+  {
+    "name": "voters_turned_out",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Published voters who attended; may differ from ballots cast."
+  },
+  {
+    "name": "ballots_cast",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Published voters who voted / ballots in boxes. Denominator differs from turnout."
+  },
+  {
+    "name": "invalid_ballots",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "valid_ballots_reported",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Official published valid ballot count; retained even when list sum differs."
+  },
+  {
+    "name": "valid_ballots_from_lists",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Sum of all list vote counts. No discrepancy is silently repaired."
+  },
+  {
+    "name": "list_sum_minus_reported_valid",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "List-vote sum minus official valid ballots; expected 0."
+  },
+  {
+    "name": "polling_stations",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "turnout_rate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "voters_turned_out / registered_voters; fraction 0-1."
+  },
+  {
+    "name": "ballots_cast_per_registered",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "invalid_ballot_rate",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "invalid_ballots / ballots_cast; fraction 0-1."
+  },
+  {
+    "name": "repeat_vote_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Latest explicitly stated local rerun date, NULL when no rerun stated in retrieved total report."
+  },
+  {
+    "name": "quality_status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "sample_13",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the selected 13 recent local-election territories, 0 otherwise. Selection indicator, not randomized treatment."
+  },
+  {
+    "name": "cohort_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for Mionica, Negotin and Sečanj."
+  },
+  {
+    "name": "cohort_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for the other ten selected local-election territories."
+  },
+  {
+    "name": "post_2023",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for dates after 2023-12-17. In the 26-row panel identical to is_local_election; do not estimate both coefficients."
+  },
+  {
+    "name": "is_local_election",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the recent local ballots, 0 for parliamentary ballots. Ballot type is confounded with time in this panel."
+  },
+  {
+    "name": "is_round_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2025-11-30. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "is_round_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2026-03-29. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "source_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "snapshot_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Download/analysis snapshot date. Old values can include revisions; this is not a reconstructed historical release vintage."
+  },
+  {
+    "name": "notes",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "snapshot_date": "2026-10-14",
+  "selected_municipalities": 13,
+  "panel_rows": 26,
+  "local_reports": 13,
+  "local_lists": 65,
+  "national_2023_stations": 8273,
+  "all_station_arithmetic_reconciles": true,
+  "national_2023_registered": 6500666,
+  "national_2023_turnout": 3820746,
+  "national_2023_cast": 3815007,
+  "national_2023_invalid": 104029,
+  "national_2023_valid": 3710978,
+  "all_2023_rzs_leaf_list_votes_match_rik_stations": true,
+  "all_2023_totals_match_list_sums": true,
+  "local_count_discrepancies": [
+    {
+      "municipality": "Aranđelovac",
+      "difference": -4
+    }
+  ],
+  "incomplete_local_coalition_members": [
+    "Mionica",
+    "Sečanj",
+    "Sevojno"
+  ],
+  "tables": [
+    {
+      "table": "territories",
+      "rows": 236,
+      "columns": 15,
+      "bytes": 16045,
+      "sha256": "00fc943d3c7b768ff8cb77ab5faf4afcb9a3e74542784de247fecdfc8f83cde4",
+      "grain": "One official territory code; geographical hierarchy includes overlapping aggregates.",
+      "key": [
+        "geo_id"
+      ]
+    },
+    {
+      "table": "polling_stations_2023",
+      "rows": 8273,
+      "columns": 34,
+      "bytes": 1760737,
+      "sha256": "5cf174dd02869af46d3e67f9fdb7345f5711d3e243c27a252d6e80dc8d790b46",
+      "grain": "One polling station; final results include December 2023 / January 2024 reruns.",
+      "key": [
+        "station_id"
+      ]
+    },
+    {
+      "table": "election_totals",
+      "rows": 247,
+      "columns": 30,
+      "bytes": 86214,
+      "sha256": "c8301fc66f70d4d98565f0e1f7b7b83d0cd482c11cd87fa3a8617ace0385ee37",
+      "grain": "One election and official territory, including geographical rollups.",
+      "key": [
+        "election_id",
+        "geo_id"
+      ]
+    },
+    {
+      "table": "list_votes",
+      "rows": 8723,
+      "columns": 25,
+      "bytes": 1841682,
+      "sha256": "d8fcfaf92441d7e18a5dd396f40d65bd4c622287f0f5cd523864b3594ebd0f05",
+      "grain": "One election, territory, electoral list. 2022/2023 all territories plus recent 13 local elections.",
+      "key": [
+        "election_id",
+        "geo_id",
+        "list_id"
+      ]
+    },
+    {
+      "table": "context_series",
+      "rows": 98304,
+      "columns": 16,
+      "bytes": 14657481,
+      "sha256": "0dd5509a34fd2ec5ded973792b0e13844df5ffe125acafb38f35bf2be75c8ae6",
+      "grain": "Territory, metric, period, age, sex, education, settlement category. Categories contain subtotals; do not sum them indiscriminately.",
+      "key": [
+        "geo_id",
+        "metric",
+        "period",
+        "age_group",
+        "sex",
+        "education",
+        "settlement_type"
+      ]
+    },
+    {
+      "table": "municipality_context_2022",
+      "rows": 236,
+      "columns": 16,
+      "bytes": 38167,
+      "sha256": "fb746804a528309a76cb7845a61d5c196d5c5bffd17bd158ca9980ba37ddeb92",
+      "grain": "One territory; fixed pre-2023 census covariates, no later economics silently joined.",
+      "key": [
+        "geo_id"
+      ]
+    },
+    {
+      "table": "coalition_bridge",
+      "rows": 37,
+      "columns": 13,
+      "bytes": 11034,
+      "sha256": "145213db6e6e13806988b30d77a1d3e4c78aec5087473873629e3bfa25e098b8",
+      "grain": "Selected local lead list to 2023 electoral-list family; explicit scenario membership, never exact party transfers.",
+      "key": [
+        "geo_id",
+        "baseline_list_id"
+      ]
+    },
+    {
+      "table": "model_panel_13",
+      "rows": 26,
+      "columns": 64,
+      "bytes": 11700,
+      "sha256": "98bdc24be17ef3556d9efe5b21d5777e06b23525e8000b77dd46a7dbb33f35a0",
+      "grain": "13 identical territories x (2023 parliamentary baseline, recent local election) = 26 rows.",
+      "key": [
+        "geo_id",
+        "election_id"
+      ]
+    },
+    {
+      "table": "paired_changes_13",
+      "rows": 13,
+      "columns": 20,
+      "bytes": 4576,
+      "sha256": "80ecd54d5dffa6aedea27a3e342101514982946b7e67fdb65baf46b91d2f7fae",
+      "grain": "One municipality; paired percentage-point changes, descriptive, not a forecast or causal effect.",
+      "key": [
+        "geo_id"
+      ]
+    },
+    {
+      "table": "source_manifest",
+      "rows": 24,
+      "columns": 12,
+      "bytes": 13052,
+      "sha256": "d428153050fc885d08f5c7f6d789f5e0c5d3df6df3605627681fce52fe1d90c0",
+      "grain": "One used downloaded source snapshot; full URL, query parameters, content hash.",
+      "key": [
+        "source_id"
+      ]
+    },
+    {
+      "table": "quality_issues",
+      "rows": 7,
+      "columns": 10,
+      "bytes": 2042,
+      "sha256": "feed0cbd4bbec74dd518d3c76bccd6cb861dd31cbbaffb04a3044845656c594a",
+      "grain": "One detected source discrepancy or mapping limitation.",
+      "key": [
+        "issue_id"
+      ]
+    },
+    {
+      "table": "data_dictionary",
+      "rows": 255,
+      "columns": 9,
+      "bytes": 82672,
+      "sha256": "bf64c5a1cd765c4ade432d80a0ab2f85e872827875929be93fcb78e339ccdab5",
+      "grain": "One exported table and column definition.",
+      "key": [
+        "table_name",
+        "column_name"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+geo_id,election_date,election_type,results_in_dataset,source_url,notes
+70556,2025-06-08,regular_local,False,https://vreme.com/vesti/blog-redovni-lokalni-izbori-u-zajecaru-i-kosjericu/,"Zajecar. Vreme live blog of 2025-06-08: ""regular local elections"". Results are NOT in the package. N1 (2025-06-09) reports the SNS list at 14,199 votes (47.12 percent), preliminary."
+70629,2025-06-08,regular_local,False,https://vreme.com/vesti/blog-redovni-lokalni-izbori-u-zajecaru-i-kosjericu/,"Kosjeric. Same source. N1 (2025-06-09) reports the SNS list at 3,686 votes (49.23 percent), 100 percent processed. Results are NOT in the package."

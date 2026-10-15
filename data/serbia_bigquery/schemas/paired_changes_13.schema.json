@@ -1,0 +1,122 @@
+[
+  {
+    "name": "geo_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Official RZS territory code stored as STRING. Join by code, not name."
+  },
+  {
+    "name": "municipality",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "baseline_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "local_election_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "baseline_2023_registered_weight",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Fixed 2023 electorate size, suitable for within-sample electorate weighting; not a national representativeness weight."
+  },
+  {
+    "name": "lead_share_valid_2023",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "lead_share_valid_local",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "turnout_rate_2023",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "turnout_rate_local",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "lead_share_change_pp",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "turnout_change_pp",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "proxy_share_change_pp_excluding_mixed",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "proxy_share_change_pp_including_mixed",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mapping_status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "local_quality_status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "eligible_for_default_model",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if source counts reconcile. Local Aranđelovac is 0 due to published four-vote discrepancy; baseline still retained."
+  },
+  {
+    "name": "eligible_for_proxy_model",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if counts reconcile and target local coalition membership is documented. For paired modelling require both rows of the pair to be eligible."
+  },
+  {
+    "name": "cohort_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for Mionica, Negotin and Sečanj."
+  },
+  {
+    "name": "cohort_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for the other ten selected local-election territories."
+  },
+  {
+    "name": "notes",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  }
+]

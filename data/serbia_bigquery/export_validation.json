@@ -1,0 +1,71 @@
+{
+  "csv_tables_checked": 12,
+  "rows_checked": 116381,
+  "panel_dummy_design_rank": 15,
+  "panel_dummy_design_columns": 15,
+  "eligible_count_reconciled_pairs": 12,
+  "eligible_documented_proxy_pairs": 9,
+  "post_equals_local_confirmed": true,
+  "checks": [
+    [
+      "territories",
+      236,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "polling_stations_2023",
+      8273,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "election_totals",
+      247,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "list_votes",
+      8723,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "context_series",
+      98304,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "municipality_context_2022",
+      236,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "coalition_bridge",
+      37,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "model_panel_13",
+      26,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "paired_changes_13",
+      13,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "source_manifest",
+      24,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "quality_issues",
+      7,
+      "schema/key/UTF-8 valid"
+    ],
+    [
+      "data_dictionary",
+      255,
+      "schema/key/UTF-8 valid"
+    ]
+  ]
+}

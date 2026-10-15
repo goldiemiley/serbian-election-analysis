@@ -1,0 +1,66 @@
+election_id,local_list_id,geo_id,geo_name,list_name_source,coalition_members_documented,hint_student_in_name,hint_youth_in_name,hint_united_in_name,hint_sns_led_name_pattern,external_evidence_note,verified_family,verified_bloc,verification_source_url,verified_by,verified_date,review_status
+local_2025_70831,LOCAL_70831_2025_01,70831,Mionica,АЛЕКСАНДАР ВУЧИЋ – НАЈБОЉЕ ЗА МИОНИЦУ!,,False,False,False,True,,,,,,,unreviewed
+local_2025_70831,LOCAL_70831_2025_02,70831,Mionica,СОЦИЈАЛДЕМОКРАТСКА ПАРТИЈА СРБИЈЕ МАРКО ЗЕМАН,,False,False,False,False,,,,,,,unreviewed
+local_2025_70831,LOCAL_70831_2025_03,70831,Mionica,БУНТ-Права Србија – БУНТ-Настоящая Сербия – Душан Марковић,,False,False,False,False,,,,,,,unreviewed
+local_2025_70831,LOCAL_70831_2025_04,70831,Mionica,Уједињени за Мионицу,,False,False,True,False,,,,,,,unreviewed
+local_2025_70831,LOCAL_70831_2025_05,70831,Mionica,ОБРАЗ И ЗНАЊЕ ПРОТИВ КОРУПЦИЈЕ И КРИМИНАЛА МИЛАН ГАВРИЛОВИЋ – ЋИЛОВАН,,False,False,False,False,,,,,,,unreviewed
+local_2025_70831,LOCAL_70831_2025_06,70831,Mionica,За спас и обнову Мионичких села – Радован Раде Марковић – Мирко Јовић,,False,False,False,False,,,,,,,unreviewed
+local_2025_70840,LOCAL_70840_2025_01,70840,Negotin,АЛЕКСАНДАР ВУЧИЋ – НАЈБОЉЕ ЗА НЕГОТИН!,SNS;SPS;PUPS;SRS,False,False,False,True,,,,,,,unreviewed
+local_2025_70840,LOCAL_70840_2025_02,70840,Negotin,УЈЕДИЊЕНИ ЗА НЕГОТИН,,False,False,True,False,,,,,,,unreviewed
+local_2025_70840,LOCAL_70840_2025_03,70840,Negotin,ЕВРОПА И МЛАДИ – ЗА наш Неготин,,False,True,False,False,,,,,,,unreviewed
+local_2025_70840,LOCAL_70840_2025_04,70840,Negotin,ГРУПА ГРАЂАНА Српски либерали – За зелени Неготин,,False,False,False,False,,,,,,,unreviewed
+local_2025_80373,LOCAL_80373_2025_01,80373,Sečanj,АЛЕКСАНДАР ВУЧИЋ – НАЈБОЉЕ ЗА СЕЧАЊ!,,False,False,False,True,,,,,,,unreviewed
+local_2025_80373,LOCAL_80373_2025_02,80373,Sečanj,ИВИЦА ДАЧИЋ – СОЦИЈАЛИСТИЧКА ПАРТИЈА СРБИЈЕ – ЗА ОПШТИНУ СВИХ НАС,,False,False,False,False,,,,,,,unreviewed
+local_2025_80373,LOCAL_80373_2025_03,80373,Sečanj,ВУКАШИН БАЋИНА – ЗА БОЉУ ОПШТИНУ СЕЧАЊ,,False,False,False,False,,,,,,,unreviewed
+local_2025_80373,LOCAL_80373_2025_04,80373,Sečanj,ГЛАС МЛАДИХ КОЈИ МЕЊА СЕЧАЊ,,False,True,False,False,,,,,,,unreviewed
+local_2025_80373,LOCAL_80373_2025_05,80373,Sečanj,ДР ВОЈИСЛАВ ШЕШЕЉ – СРПСКА РАДИКАЛНА СТРАНКА,,False,False,False,False,,,,,,,unreviewed
+local_2026_70033,LOCAL_70033_2026_01,70033,Aranđelovac,"АЛЕКСАНДАР ВУЧИЋ – Аранђеловац, наша породица!",SNS;SPS;ZAVETNICI;SRS;PS;PUPS,False,False,False,True,,,,,,,unreviewed
+local_2026_70033,LOCAL_70033_2026_02,70033,Aranđelovac,РУСКА СТРАНКА – За бољи АРАНЂЕЛОВАЦ!,,False,False,False,False,,,,,,,unreviewed
+local_2026_70033,LOCAL_70033_2026_03,70033,Aranđelovac,СТУДЕНТИ ЗА АРАНЂЕЛОВАЦ – МЛАДОСТ ПОБЕЂУЈЕ,,True,True,False,False,,,,,,,unreviewed
+local_2026_70033,LOCAL_70033_2026_04,70033,Aranđelovac,КОАЛИЦИЈА 381 – УЈЕДИЊЕНИ ПОДРЖАВАМО МЛАДЕ,,False,True,True,False,,,,,,,unreviewed
+local_2026_70033,LOCAL_70033_2026_05,70033,Aranđelovac,ГРУПА ГРАЂАНА СРПСКИ ЛИБЕРАЛИ ЗА ЗЕЛЕНИ АРАНЂЕЛОВАЦ,,False,False,False,False,,,,,,,unreviewed
+local_2026_70068,LOCAL_70068_2026_01,70068,Bajina Bašta,"Коалиција АЛЕКСАНДАР ВУЧИЋ – Бајина Башта, наша породица!",SNS;SPS;SRS;PUPS;SNP,False,False,False,True,,,,,,,unreviewed
+local_2026_70068,LOCAL_70068_2026_02,70068,Bajina Bašta,УЈЕДИЊЕНИ ЗА БАЈИНУ БАШТУ,,False,False,True,False,,,,,,,unreviewed
+local_2026_70068,LOCAL_70068_2026_03,70068,Bajina Bašta,ЗДРАВА СРБИЈА – МИЛАН СТАМАТОВИЋ,,False,False,False,False,,,,,,,unreviewed
+local_2026_70068,LOCAL_70068_2026_04,70068,Bajina Bašta,Социјалдемократска партија Србије – МАРИЈА МИЛОСАВЉЕВИЋ,,False,False,False,False,,,,,,,unreviewed
+local_2026_70068,LOCAL_70068_2026_05,70068,Bajina Bašta,ГРУПА ГРАЂАНА ИЗАЂИ/ИЗБОРИ СЕ ЗА БАЈИНУ БАШТУ – српски либерали,,False,False,False,False,,,,,,,unreviewed
+local_2026_70068,LOCAL_70068_2026_06,70068,Bajina Bašta,Група грађана Нестраначки покрет за Бајину Башту,,False,False,False,False,,,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_01,70327,Bor,"АЛЕКСАНДАР ВУЧИЋ – Бор, наша породица!",SNS;SPS;SRS;SNP,False,False,False,True,,,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_02,70327,Bor,"БОР, НАША ОДГОВОРНОСТ",,False,False,False,False,"Wikipedia (tertiary, retrieved 2026-10-14): the list included local politicians/movements supported by the Serbian Student Movement. Verify with a primary or reliable secondary source before classifying.",,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_03,70327,Bor,СВОЈИ НА СВОМЕ – др Предраг Балашевић – Влашка народна странка,,False,False,False,False,,,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_04,70327,Bor,ЉУДИ У ЦЕНТРУ – Срећко Здравковић,,False,False,False,False,,,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_05,70327,Bor,БОРЦИ ЗА БОР,,False,False,False,False,,,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_06,70327,Bor,"ДР МИЛОШ ЈОВАНОВИЋ – ДР ЗОРАН СТОЈКОВИЋ – НАДА ЗА БОР – НАЦИОНАЛНО ДЕМОКРАТСКА АЛТЕРНАТИВА – НАДА (НОВИ ДСС, ПОКРЕТ ЗА КРАЉЕВИНУ СРБИЈУ – МОНАРХИСТИ)",,False,False,False,False,,,,,,,unreviewed
+local_2026_70327,LOCAL_70327_2026_07,70327,Bor,ИРЕНА ЖИВКОВИЋ – РАДНИЧКА – БОР БОРАНИМА,,False,False,False,False,,,,,,,unreviewed
+local_2026_70572,LOCAL_70572_2026_01,70572,Kladovo,"АЛЕКСАНДАР ВУЧИЋ – Кладово, наша породица!",SNS;SPS;SRS,False,False,False,True,,,,,,,unreviewed
+local_2026_70572,LOCAL_70572_2026_02,70572,Kladovo,Група грађана КЛАДОВО ИМА НАС – ВРЕМЕ ЈЕ ЗА ПРОМЕНЕ!,,False,False,False,False,,,,,,,unreviewed
+local_2026_70572,LOCAL_70572_2026_03,70572,Kladovo,ГРУПА ГРАЂАНА СРПСКИ ЛИБЕРАЛИ ЗА ЗЕЛЕНО КЛАДОВО,,False,False,False,False,,,,,,,unreviewed
+local_2026_70602,LOCAL_70602_2026_01,70602,Knjaževac,"АЛЕКСАНДАР ВУЧИЋ – Књажевац, наша породица!",SNS;SPS;SRS;PUPS;ZAVETNICI,False,False,False,True,,,,,,,unreviewed
+local_2026_70602,LOCAL_70602_2026_02,70602,Knjaževac,ПРОМЕНЕ – ДР ИГОР МИЛОСАВЉЕВИЋ – МАРКО ИГЊАТОВИЋ,,False,False,False,False,,,,,,,unreviewed
+local_2026_70602,LOCAL_70602_2026_03,70602,Knjaževac,ГРУПА ГРАЂАНА СРПСКИ ЛИБЕРАЛИ ЗА ЗЕЛЕНИ КЊАЖЕВАЦ,,False,False,False,False,,,,,,,unreviewed
+local_2026_70602,LOCAL_70602_2026_04,70602,Knjaževac,КЊАЖЕВАЦ УЗ СТУДЕНТЕ – ЧИСТА ЛИСТА – ДР. ИВАН МИЛОШЕВИЋ,,True,False,False,False,,,,,,,unreviewed
+local_2026_70742,LOCAL_70742_2026_01,70742,Lučani,"АЛЕКСАНДАР ВУЧИЋ – Лучани, наша породица!",SNS;SPS;PUPS;SRS;JS,False,False,False,True,,,,,,,unreviewed
+local_2026_70742,LOCAL_70742_2026_02,70742,Lučani,"РАДОМИР ИВАНОВИЋ – Саборно, а не поделе – Социјалдемократска партија Србије",,False,False,False,False,,,,,,,unreviewed
+local_2026_70742,LOCAL_70742_2026_03,70742,Lučani,Заједно за Лучане,,False,False,False,False,,,,,,,unreviewed
+local_2026_70742,LOCAL_70742_2026_04,70742,Lučani,НАДА ЗА ДРАГАЧЕВО – МОНАРХИСТИ – НОВИ ДСС – НАЦИОНАЛНО ДЕМОКРАТСКА АЛТЕРНАТИВА,,False,False,False,False,,,,,,,unreviewed
+local_2026_70742,LOCAL_70742_2026_05,70742,Lučani,ЗВУК ПРАВДЕ – ЗАЈЕДНО ЗА СТУДЕНТЕ – МИРЈАНА КЕРН,,True,False,False,False,,,,,,,unreviewed
+local_2026_70742,LOCAL_70742_2026_06,70742,Lučani,Зелени фронт за студенте – Драгачево,,True,False,False,False,,,,,,,unreviewed
+local_2026_70785,LOCAL_70785_2026_01,70785,Majdanpek,"АЛЕКСАНДАР ВУЧИЋ – Мајданпек, наша породица!",SNS;SPS;SRS,False,False,False,True,,,,,,,unreviewed
+local_2026_70785,LOCAL_70785_2026_02,70785,Majdanpek,Група грађана Ми одлучујемо! – Др Дамјан Стевкић,,False,False,False,False,,,,,,,unreviewed
+local_2026_70785,LOCAL_70785_2026_03,70785,Majdanpek,СРПСКИ ЛИБЕРАЛИ ЗА ЗЕЛЕНИ МАЈДАНПЕК,,False,False,False,False,,,,,,,unreviewed
+local_2026_70785,LOCAL_70785_2026_04,70785,Majdanpek,Ну Дау,,False,False,False,False,,,,,,,unreviewed
+local_2026_71102,LOCAL_71102_2026_01,71102,Smederevska Palanka,"АЛЕКСАНДАР ВУЧИЋ – Смедеревска Паланка, наша породица!",SNS;SPS;SRS;PUPS;ZAVETNICI;ZDRAVA_SRBIJA,False,False,False,True,,,,,,,unreviewed
+local_2026_71102,LOCAL_71102_2026_02,71102,Smederevska Palanka,"УЈЕДИЊЕНИ ЗА ПАЛАНКУ – МИРОСЛАВ АЛЕКСИЋ НПС – МИЛОШ ПАРАНДИЛОВИЋ НЛС – НАДА ЗА ПАЛАНКУ (НОВИ ДСС, МОНАРХИСТИ)",,False,False,True,False,,,,,,,unreviewed
+local_2026_71102,LOCAL_71102_2026_03,71102,Smederevska Palanka,СТУДЕНТИ ПАЛАНКЕ,,True,False,False,False,,,,,,,unreviewed
+local_2026_71102,LOCAL_71102_2026_04,71102,Smederevska Palanka,ГРУПА ГРАЂАНА – ИЗЛЕЧИМО СИСТЕМ – ДА ПАЛАНКА ОЗДРАВИ,,False,False,False,False,,,,,,,unreviewed
+local_2026_71102,LOCAL_71102_2026_05,71102,Smederevska Palanka,Млади за Паланку – Сами против свих,,False,True,False,False,,,,,,,unreviewed
+local_2026_71102,LOCAL_71102_2026_06,71102,Smederevska Palanka,"НАРОДНА ЛИСТА – ЗОРАН МИЛОЈКОВИЋ, професор",,False,False,False,False,,,,,,,unreviewed
+local_2026_71366,LOCAL_71366_2026_01,71366,Sevojno,"АЛЕКСАНДАР ВУЧИЋ – Севојно, наша породица!",,False,False,False,True,,,,,,,unreviewed
+local_2026_71366,LOCAL_71366_2026_02,71366,Sevojno,МИЛАН СТАМАТОВИЋ – АВРАМ ИЛИЋ ПРЕДСЕДНИК ГО СЕВОЈНО ЗДРАВА СРБИЈА – ЗДРАВО ДА ПОБЕДИ,,False,False,False,False,,,,,,,unreviewed
+local_2026_71366,LOCAL_71366_2026_03,71366,Sevojno,Уједињени – Севојно,,False,False,True,False,,,,,,,unreviewed
+local_2026_71366,LOCAL_71366_2026_04,71366,Sevojno,СРПСКИ ЛИБЕРАЛИ ЗА ЗЕЛЕНО СЕВОЈНО,,False,False,False,False,,,,,,,unreviewed
+local_2026_80233,LOCAL_80233_2026_01,80233,Kula,"АЛЕКСАНДАР ВУЧИЋ – Кула, наша породица!",SNS;SPS;VMSZ;SRS;ZS,False,False,False,True,,,,,,,unreviewed
+local_2026_80233,LOCAL_80233_2026_02,80233,Kula,Група грађана МЛАДИ ЗА КУЛУ,,False,True,False,False,,,,,,,unreviewed
+local_2026_80233,LOCAL_80233_2026_03,80233,Kula,ГЛАС МЛАДИХ ОПШТИНЕ КУЛА,,False,True,False,False,,,,,,,unreviewed
+local_2026_80233,LOCAL_80233_2026_04,80233,Kula,РУСКА ЛИСТИНА – РУСИНСКА ЛИСТА,,False,False,False,False,,,,,,,unreviewed
+local_2026_80233,LOCAL_80233_2026_05,80233,Kula,СРПСКИ ЛИБЕРАЛИ ЗА ЗЕЛЕНУ КУЛУ,,False,False,False,False,,,,,,,unreviewed

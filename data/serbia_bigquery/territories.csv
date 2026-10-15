@@ -1,0 +1,237 @@
+geo_id,geo_name,parent_geo_id,region_id,geo_level,is_2023_leaf,is_special_electorate,has_2023_station_data,sample_13,cohort_nov2025,cohort_mar2026,post_2023,is_local_election,is_round_nov2025,is_round_mar2026
+33000,Abroad,,,special_electorate,1,1,1,0,0,0,0,0,0,0
+55001,Institutions for the enforcement of institutional sanctions,,,special_electorate,1,1,1,0,0,0,0,0,0,0
+70017,Aleksandrovac,RS216,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70025,Aleksinac,RS225,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70033,Aranđelovac,RS218,RS21,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70041,Arilje,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70050,Babušnica,RS226,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70068,Bajina Bašta,RS211,RS21,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70076,Batočina,RS218,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70084,Bela Palanka,RS226,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70092,Barajevo,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70106,Voždovac,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70114,Vračar,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70122,Grocka,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70149,Zvezdara,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70157,Zemun,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70165,Lazarevac,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70173,Mladenovac,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70181,Novi Beograd,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70190,Obrenovac,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70203,Palilula (Beograd),RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70211,Rakovica,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70220,Savski venac,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70238,Sopot,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70246,Stari grad,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70254,Čukarica,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70262,Blace,RS229,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70289,Bogatić,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70297,Bojnik,RS224,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70319,Boljevac,RS223,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70327,Bor,RS221,RS22,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70335,Bosilegrad,RS228,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70343,Brus,RS216,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70351,Bujanovac,RS228,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70360,Valjevo,RS212,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70378,Varvarin,RS216,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70386,Velika Plana,RS227,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70394,Veliko Gradište,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70408,Vladimirci,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70416,Vladičin Han,RS228,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70424,Vlasotince,RS224,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70432,Vranje,79057,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70459,Vrnjačka Banja,RS217,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70467,Gadžin Han,RS225,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70475,Golubac,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70483,Gornji Milanovac,RS214,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70491,Despotovac,RS215,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70505,Dimitrovgrad,RS226,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70513,Doljevac,RS225,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70521,Žabari,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70530,Žagubica,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70548,Žitorađa,RS229,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70556,Zaječar,RS223,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70564,Ivanjica,RS214,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70572,Kladovo,RS221,RS22,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70599,Knić,RS218,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70602,Knjaževac,RS223,RS22,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70629,Kosjerić,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70637,Koceljeva,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70645,Kragujevac,RS218,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70653,Kraljevo,RS217,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70661,Krupanj,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70670,Kruševac,RS216,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70688,Kuršumlija,RS229,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70696,Kučevo,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70700,Lajkovac,RS212,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70718,Lebane,RS224,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70726,Leskovac,RS224,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70734,Loznica,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70742,Lučani,RS214,RS21,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70769,Ljig,RS212,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70777,Ljubovija,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70785,Majdanpek,RS221,RS22,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+70793,Mali Zvornik,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70807,Malo Crniće,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70815,Medveđa,RS224,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70823,Merošina,RS225,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70831,Mionica,RS212,RS21,municipality_or_city,1,0,1,1,1,0,0,0,0,0
+70840,Negotin,RS221,RS22,municipality_or_city,1,0,1,1,1,0,0,0,0,0
+70866,Nova Varoš,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70874,Novi Pazar,RS217,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70882,Osečina,RS212,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70904,Paraćin,RS215,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70912,Petrovac na Mlavi,RS222,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70939,Pirot,RS226,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70947,Požarevac,79049,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70955,Požega,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70963,Preševo,RS228,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70971,Priboj,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70980,Prijepolje,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+70998,Prokuplje,RS229,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71005,Ražanj,RS225,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71013,Rača,RS218,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71021,Raška,RS217,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71030,Rekovac,RS215,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71048,Jagodina,RS215,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71056,Svilajnac,RS215,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71064,Svrljig,RS225,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71072,Sjenica,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71099,Smederevo,RS227,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71102,Smederevska Palanka,RS227,RS22,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+71129,Sokobanja,RS223,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71137,Surdulica,RS228,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71145,Užice,79065,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71153,Topola,RS218,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71161,Trgovište,RS228,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71170,Trstenik,RS216,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71188,Tutin,RS217,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71196,Ćićevac,RS216,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71200,Ćuprija,RS215,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71218,Ub,RS212,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71226,Crna Trava,RS224,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71234,Čajetina,RS211,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71242,Čačak,RS214,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71269,Šabac,RS213,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71277,Lapovo,RS218,RS21,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71285,Niška Banja,79022,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71293,Surčin,RS110,RS11,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71307,Pantelej,79022,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71315,Crveni Krst,79022,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71323,Palilula (Niš),79022,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71331,Medijana,79022,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71340,Kostolac,79049,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71358,Vranjska Banja,79057,RS22,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+71366,Sevojno,79065,RS21,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+79022,Grad Niš,RS225,RS22,municipality_or_city,0,0,0,0,0,0,0,0,0,0
+79049,Grad Požarevac,RS222,RS22,municipality_or_city,0,0,0,0,0,0,0,0,0,0
+79057,Grad Vranje,RS228,RS22,municipality_or_city,0,0,0,0,0,0,0,0,0,0
+79065,Grad Užice,RS211,RS21,municipality_or_city,0,0,0,0,0,0,0,0,0,0
+80012,Ada,RS124,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80039,Alibunar,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80047,Apatin,RS121,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80055,Bač,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80063,Bačka Palanka,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80071,Bačka Topola,RS125,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80080,Bački Petrovac,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80098,Bela Crkva,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80101,Beočin,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80110,Bečej,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80128,Vršac,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80136,Žabalj,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80144,Žitište,RS126,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80152,Zrenjanin,RS126,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80179,Inđija,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80187,Irig,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80195,Kanjiža,RS124,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80209,Kikinda,RS124,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80217,Kovačica,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80225,Kovin,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80233,Kula,RS121,RS12,municipality_or_city,1,0,1,1,0,1,0,0,0,0
+80241,Mali Iđoš,RS125,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80250,Nova Crnja,RS126,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80268,Novi Bečej,RS126,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80276,Novi Kneževac,RS124,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80284,Novi Sad,89010,RS12,municipality_or_city,0,0,0,0,0,0,0,0,0,0
+80292,Opovo,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80306,Odžaci,RS121,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80314,Pančevo,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80322,Pećinci,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80349,Plandište,RS122,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80357,Ruma,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80365,Senta,RS124,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80373,Sečanj,RS126,RS12,municipality_or_city,1,0,1,1,1,0,0,0,0,0
+80381,Sombor,RS121,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80390,Srbobran,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80403,Sremska Mitrovica,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80411,Sremski Karlovci,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80420,Stara Pazova,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80438,Subotica,RS125,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80446,Temerin,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80454,Titel,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80462,Vrbas,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80489,Čoka,RS124,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80497,Šid,RS127,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+80519,Petrovaradin,89010,RS12,municipality_or_city,0,0,0,0,0,0,0,0,0,0
+89010,Grad Novi Sad,RS123,RS12,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90018,Vitina,RS233,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90026,Vučitrn,RS232,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90042,Gnjilane,RS233,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90093,Zubin Potok,RS232,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90107,Istok,RS234,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90123,Klina,RS234,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90131,Kosovo Polje,RS231,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90140,Kosovska Kamenica,RS233,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90158,Leposavić,RS232,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90166,Lipljan,RS231,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90182,Novo Brdo,RS233,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90204,Obilić,RS231,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90212,Orahovac,RS235,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90239,Peć,RS234,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90255,Prizren,RS235,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90263,Priština,RS231,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90271,Srbica,RS232,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90298,Kosovska Mitrovica,RS232,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90301,Uroševac,RS231,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90328,Štrpce,RS231,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90336,Gora,RS235,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+90352,Zvečan,RS232,RS23,municipality_or_city,1,0,1,0,0,0,0,0,0,0
+RS,REPUBLIC OF SERBIA,,,national,0,0,0,0,0,0,0,0,0,0
+RS1,SRBIJA – SEVER,RS,,macro_region,0,0,0,0,0,0,0,0,0,0
+RS11,Beogradski region,RS1,RS11,region,0,0,0,0,0,0,0,0,0,0
+RS110,Beogradska oblast,RS11,RS11,district,0,0,0,0,0,0,0,0,0,0
+RS12,Region Vojvodine,RS1,RS12,region,0,0,0,0,0,0,0,0,0,0
+RS121,Zapadnobačka oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS122,Južnobanatska oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS123,Južnobačka oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS124,Severnobanatska oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS125,Severnobačka oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS126,Srednjobanatska oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS127,Sremska oblast,RS12,RS12,district,0,0,0,0,0,0,0,0,0,0
+RS2,SRBIJA – JUG,RS,,macro_region,0,0,0,0,0,0,0,0,0,0
+RS21,Region Šumadije i Zapadne Srbije,RS2,RS21,region,0,0,0,0,0,0,0,0,0,0
+RS211,Zlatiborska oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS212,Kolubarska oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS213,Mačvanska oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS214,Moravička oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS215,Pomoravska oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS216,Rasinska oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS217,Raška oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS218,Šumadijska oblast,RS21,RS21,district,0,0,0,0,0,0,0,0,0,0
+RS22,Region Južne i Istočne Srbije,RS2,RS22,region,0,0,0,0,0,0,0,0,0,0
+RS221,Borska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS222,Braničevska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS223,Zaječarska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS224,Jablanička oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS225,Nišavska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS226,Pirotska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS227,Podunavska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS228,Pčinjska oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS229,Toplička oblast,RS22,RS22,district,0,0,0,0,0,0,0,0,0,0
+RS23,Region Kosovo i Metohija,RS2,RS23,region,0,0,0,0,0,0,0,0,0,0
+RS231,Kosovska oblast,RS23,RS23,district,0,0,0,0,0,0,0,0,0,0
+RS232,Kosovsko-mitrovačka oblast,RS23,RS23,district,0,0,0,0,0,0,0,0,0,0
+RS233,Kosovsko-pomoravska oblast,RS23,RS23,district,0,0,0,0,0,0,0,0,0,0
+RS234,Pećka oblast,RS23,RS23,district,0,0,0,0,0,0,0,0,0,0
+RS235,Prizrenska oblast,RS23,RS23,district,0,0,0,0,0,0,0,0,0,0

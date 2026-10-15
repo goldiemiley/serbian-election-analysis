@@ -1,0 +1,10 @@
+list_key,minority_group,analog_family,role,unit_pattern,mapping_status,note
+svm_pastor,Hungarian,MIN_HU,continuing,analog_family,proposed_unreviewed,Continuity of the SVM list is documented by name.
+usame_zukorlic_pokret_za_ujedinjenje,Bosniak,MIN_BOSNIAK_SPP,continuing,analog_family,proposed_unreviewed,Same leader as the 2023 list.
+sda_sandzaka_cuvari_sandzaka,Bosniak,MIN_BOSNIAK_SDA,continuing,analog_family,proposed_unreviewed,Same party as the 2023 list.
+rasim_ljajic_ljudski,Bosniak,,new_entrant,group_pool,proposed_unreviewed,ASSUMED Bosniak group (not stated in sources); no 2023 minority list of this organization in the data.
+biram_pravdu_biram_buducnost,Bosniak,,new_entrant,group_pool,proposed_unreviewed,Bosniak and Greek minority coalition per Danas; modelled in the Bosniak pool; a 2023 list with a similar name (NP202310) is unclassified in the data.
+albanska_koalicija,Albanian,MIN_ALBANIAN,continuing,analog_family,proposed_unreviewed,Seven Albanian parties on one list; in 2023 two Albanian lists ran (families merged).
+ruska_stranka_srbija_u_briksu,Russian,MIN_RUSSIAN,continuing,analog_family,proposed_unreviewed,Same leader as the 2023 Russian Party list.
+stranka_rusko_srpskog_jedinstva,Russian,,new_entrant,group_pool,proposed_unreviewed,Newly founded; competes for the same pool as the Russian Party list.
+majka_srbija_gruda,Slovak,,prior_only,region_uniform,proposed_unreviewed,No Slovak list and no group base in the data; votes are prior-only and spread uniformly over region RS12 as an explicit placeholder.

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "election_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "election_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "geo_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Official RZS territory code stored as STRING. Join by code, not name."
+  },
+  {
+    "name": "geo_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "geo_level",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "is_2023_leaf",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 if the territory is a disjoint 2023 polling-station reporting unit. Sum these units for national totals; do not sum rollups as well."
+  },
+  {
+    "name": "list_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "list_number",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "list_name_source",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Source list label. Parliamentary names use RZS English labels; local titles are transcribed in Serbian. Long local member parentheticals are represented separately and preserved in source PDFs."
+  },
+  {
+    "name": "votes",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "mandates",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Reported local seats, NULL when not supplied or not collected; no inferred zero for missing records."
+  },
+  {
+    "name": "vote_share_valid",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "List votes divided by sum of list votes for parliamentary data, or published valid ballots for local data; 0-1 scale."
+  },
+  {
+    "name": "vote_share_cast_reported",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Published parliamentary percentage divided by 100; denominator is ballots cast, not valid ballots. NULL for locals when not transcribed."
+  },
+  {
+    "name": "vote_share_registered",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "List votes / registered voters. 2022 NULL because register counts were not joined."
+  },
+  {
+    "name": "coalition_members_documented",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "coalition_members_complete",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only where local lead-list parenthetical enumerates partners. Parliamentary electoral families still need their own coalition assumptions."
+  },
+  {
+    "name": "sample_13",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the selected 13 recent local-election territories, 0 otherwise. Selection indicator, not randomized treatment."
+  },
+  {
+    "name": "cohort_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for Mionica, Negotin and Sečanj."
+  },
+  {
+    "name": "cohort_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "Time-invariant flag for the other ten selected local-election territories."
+  },
+  {
+    "name": "post_2023",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for dates after 2023-12-17. In the 26-row panel identical to is_local_election; do not estimate both coefficients."
+  },
+  {
+    "name": "is_local_election",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 for the recent local ballots, 0 for parliamentary ballots. Ballot type is confounded with time in this panel."
+  },
+  {
+    "name": "is_round_nov2025",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2025-11-30. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "is_round_mar2026",
+    "type": "INT64",
+    "mode": "NULLABLE",
+    "description": "1 only for the local election dated 2026-03-29. 2023 parliamentary baseline is the omitted round."
+  },
+  {
+    "name": "source_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": ""
+  },
+  {
+    "name": "snapshot_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Download/analysis snapshot date. Old values can include revisions; this is not a reconstructed historical release vintage."
+  }
+]
