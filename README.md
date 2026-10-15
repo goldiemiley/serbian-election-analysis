@@ -1,46 +1,48 @@
-# Serbian Parliamentary Election Forecasting
+# Serbia parliamentary election forecasting project
 
-This project develops a transparent electoral forecasting workflow for Serbia using municipal electoral data, Python, Google Colab and Google BigQuery.
+Privacy-prepared copy of the uploaded v3 project, the two STEP notebooks, the electoral CSV package, and the separately uploaded result snapshot. Votes, parliamentary seats, and coalition arithmetic are separate stages. Begin with `STEP2_run_forecast.ipynb` if the electoral tables are already in BigQuery.
 
-The analysis examines SNS-led, student-backed, SPS, opposition and minority-list scenarios without assuming a winner.
+This copy removes the owner's cloud project ID, clears notebook outputs and identifying metadata, and uses hidden runtime prompts for project and dataset IDs. The statistical implementation, observed CSVs, numerical result tables, and scenario assumptions are preserved. **Privacy preparation is not statistical validation or verification of the election schedule, sources, or electoral law.** The uploaded results are conditional snapshots, not an updated forecast.
 
-## Three separate electoral outcomes
+## Files
 
-The workflow distinguishes:
+| Path | Use |
+|---|---|
+| `STEP1_load_data.ipynb` | Optional loader. Skip it when the tables are already loaded. Running it replaces the selected raw tables. |
+| `STEP2_run_forecast.ipynb` | Main Google Colab notebook. Connection IDs are entered at runtime. |
+| `Serbia_Election_Forecast_2026.ipynb`, `Step1_Load_Data_to_BigQuery.ipynb` | Privacy-prepared copies of the notebooks originally bundled in v3. |
+| `src/`, `sql/`, `tests/`, `tools/` | Original forecasting modules, SQL, tests, and notebook builders; connection setup in the builders is sanitized. |
+| `config/` | Uploaded list classifications, legal parameters, model settings, and scenario assumptions. |
+| `data_to_import/` | Uploaded external political inputs and templates; retain their verification labels. |
+| `data/serbia_bigquery/` | The 12 original electoral/context CSVs, schemas, manifests, and loader documentation. |
+| `sample_outputs/` | The separately uploaded `forecast_outputs.zip`, unpacked once. Numerical CSVs are unchanged. |
+| `docs/README_UPSTREAM.md`, `ARCHITECTURE.md`, `RESEARCH_LEADS.md` | Supplied methodological documentation and limitations. |
+| `UPLOAD_TO_GITHUB.md`, `PRIVACY_REVIEW.md` | Upload instructions and the scope of the privacy review. |
 
-1. **National votes:** turnout, vote totals and vote shares for each electoral list.
-2. **Parliamentary seats:** threshold eligibility and seat allocation under the configured electoral rules.
-3. **Coalition outcomes:** parliamentary majorities and government-formation scenarios under explicit compatibility assumptions.
+## Google Colab
 
-Government-formation estimates depend on coalition assumptions as well as election results.
+1. Open [Google Colab](https://colab.research.google.com/). Choose **File → Upload notebook** and select `STEP2_run_forecast.ipynb` from the extracted folder.
+2. Run the configuration cell. Enter your existing Google Cloud **project ID** and BigQuery **dataset ID** in the hidden prompts. The location defaults to **EU**. These identifiers are not written into the source cell.
+3. Run the setup cell. When asked for a ZIP, select `Serbia_GitHub_Ready.zip`, or the source ZIP downloaded from your private repository. Both folder names are supported. Authenticate through Google's own Colab prompt.
+4. Review the external CSVs and the model/legal parameters before running all stages. The supplied notebook builds or replaces working/configuration tables and can import external tables; existing raw electoral data need not be reloaded.
+5. Keep the executed Colab copy private. Before uploading an updated notebook, clear **all outputs**, save a new copy, and check it with `python3 tools/privacy_check.py`. An error message from BigQuery can disclose a project ID even though the inputs were hidden.
 
-## Data and approach
+If your raw tables have not been loaded, open `STEP1_load_data.ipynb` first, enter the identifiers privately, and select the same cleaned ZIP when prompted. It locates the included `election_totals.csv` and its schema folder. It replaces tables in the dataset you select.
 
-The repository contains historical electoral records, geographic identifiers, contextual data, imported external observations, configurable assumptions, SQL queries, Python modules and archived results.
+## Optional local checks
 
-The workflow considers:
+Run commands in a terminal opened inside this repository:
 
-- Geographic differences in turnout and electoral support.
-- Recent local-election information, with uncertain applicability to parliamentary voting.
-- Polling signals and differences between pollsters.
-- Minority lists and geographically concentrated support.
-- Threshold sensitivity, including scenarios involving SPS.
-- Monte Carlo uncertainty and alternative coalition combinations.
+```bash
+python3 tools/privacy_check.py
+python3 -m pip install -r requirements.txt
+python3 -I -m pytest tests -q --pkg data/serbia_bigquery
+```
 
-**National participation of 4.3–4.4 million voters is a scenario assumption, not an independently verified turnout prediction.**
+The privacy checker reports file locations and issue types, without printing matched secret values. Passing it cannot prove that arbitrary prose or future uploaded documents contain no personal information. Review new data and documents before committing them. `.gitignore` applies to Git additions; it does not filter GitHub's browser file uploads or erase earlier commits.
 
-Municipal changes cannot establish individual voter switching. Political departures or endorsements also do not establish how many voters will change their preferences.
+## Data provenance and rights
 
-## Using the project
+The electoral and context files are aggregate observations with geography identifiers. Their source URLs, publishers, dates, hashes, and documented issues are in `data/serbia_bigquery/source_manifest.csv` and `quality_issues.csv`. Source download PDFs, spreadsheets, HTML captures, and collection scripts from the earlier archive are omitted from this upload copy; the manifest still documents their origin. No individual voter records were identified in the included table schemas.
 
-Start with `STEP2_run_forecast.ipynb` if the electoral tables are already available in BigQuery. `STEP1_load_data.ipynb` provides an optional data-loading workflow.
-
-Source documentation is recorded in `data/serbia_bigquery/source_manifest.csv`. Model parameters and scenario assumptions are maintained in `config/`.
-
-Cloud connection identifiers are entered at runtime. Credentials should remain outside the repository, and executed notebooks should have their outputs cleared before sharing.
-
-## Project status
-
-This is a work in progress. The included results are archived, scenario-conditional outputs. Their presence does not establish forecast accuracy or confirm that every political input, election arrangement or electoral-law setting has been verified.
-
-Updated forecasts require source review, appropriate backtesting and validation of the applicable electoral rules. The purpose is to make the assumptions, calculations and uncertainty inspectable.
+No redistribution license was supplied. No license is invented here. Keep the repository private while reviewing permission to redistribute code, compiled polls, and source-derived data. Public political figures and public source URLs remain in the electoral records and documentation.
