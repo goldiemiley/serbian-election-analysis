@@ -1,9 +1,0 @@
-geography,dispersion_multiplier,list_key,units_expected_first,mean_lo80_hi80_width
-additive,1.0,aleksandar_vucic_ujedinjena_srbija,110.735,0.10586284400370756
-additive,1.0,studentska_lista,73.385,0.11123562846427476
-proportional,0.5,aleksandar_vucic_ujedinjena_srbija,135.9875,0.12433787443510826
-proportional,0.5,studentska_lista,48.355,0.13533457125990758
-proportional,1.0,aleksandar_vucic_ujedinjena_srbija,130.3075,0.17413094613970936
-proportional,1.0,studentska_lista,54.1175,0.20260216688373459
-proportional,2.0,aleksandar_vucic_ujedinjena_srbija,121.0325,0.28983940712847445
-proportional,2.0,studentska_lista,63.7125,0.3524647712572184

@@ -1,6 +1,0 @@
-poll_id,house,date,n_eff,sample_missing,coords_observed,reference,posterior_log_ratio_first_target_at_election,posterior_sd,pollster_effect_sd_used,pollster_effect_sd_moment_estimate,days_from_last_poll_to_election
-crta_2026_06,CRTA with Democracy Action Lab (Stanford),2026-06-24,1162.0,False,2,aleksandar_vucic_ujedinjena_srbija,-0.017610400312481088,0.17847031039578493,0.2419460743280917,0.2419460743280917,35
-nspm_2026_07,NSPM (Nova srpska politicka misao),2026-07-30,500.0,False,2,aleksandar_vucic_ujedinjena_srbija,-0.017610400312481088,0.17847031039578493,0.2419460743280917,0.2419460743280917,35
-faktorplus_2026_09a,Faktor plus,2026-09-04,600.0,False,2,aleksandar_vucic_ujedinjena_srbija,-0.017610400312481088,0.17847031039578493,0.2419460743280917,0.2419460743280917,35
-nspm_2026_09,NSPM (Nova srpska politicka misao),2026-09-10,500.0,True,1,aleksandar_vucic_ujedinjena_srbija,-0.017610400312481088,0.17847031039578493,0.2419460743280917,0.2419460743280917,35
-faktorplus_2026_09b,Faktor plus,2026-09-20,493.0,False,4,aleksandar_vucic_ujedinjena_srbija,-0.017610400312481088,0.17847031039578493,0.2419460743280917,0.2419460743280917,35
