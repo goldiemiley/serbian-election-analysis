@@ -8,8 +8,7 @@ This copy removes the owner's cloud project ID, clears notebook outputs and iden
 
 | Path | Use |
 |---|---|
-| `STEP1_load_data.ipynb` | Optional loader. Skip it when the tables are already loaded. Running it replaces the selected raw tables. |
-| `STEP2_run_forecast.ipynb` | Main Google Colab notebook. Connection IDs are entered at runtime. |
+| `run_forecast.ipynb` | Main Google Colab notebook. Connection IDs are entered at runtime. |
 | `Serbia_Election_Forecast_2026.ipynb`, `Step1_Load_Data_to_BigQuery.ipynb` | Privacy-prepared copies of the notebooks originally bundled in v3. |
 | `src/`, `sql/`, `tests/`, `tools/` | Original forecasting modules, SQL, tests, and notebook builders; connection setup in the builders is sanitized. |
 | `config/` | Uploaded list classifications, legal parameters, model settings, and scenario assumptions. |
