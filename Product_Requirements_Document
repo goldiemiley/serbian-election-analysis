@@ -2,8 +2,6 @@
 
 ## 1. Role and Objective
 
-Act as a **Senior Political Data Scientist, Quantitative Electoral Analyst, Econometrician, and Python/Google BigQuery Expert**.
-
 I want to develop a rigorous, transparent, statistically defensible electoral forecasting model for the next Serbian parliamentary election.
 
 The primary objective is to estimate the probabilities of:
@@ -44,10 +42,6 @@ Before developing the model:
 6. Verify the accuracy and completeness of election and municipality records.
 
 ### Strict coding rules
-
-**DO NOT HARDCODE electoral observations, party vote shares, municipality names, historical outcomes, candidate lists, election dates, polling numbers, party transitions, or forecasts.**
-
-Instead:
 
 - Retrieve observations dynamically from BigQuery.
 - Use the actual table schema and available fields.
