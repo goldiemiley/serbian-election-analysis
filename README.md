@@ -1,6 +1,6 @@
 # Serbia parliamentary election forecasting project
 
-Privacy-prepared copy of the uploaded v3 project, the two STEP notebooks, the electoral CSV package, and the separately uploaded result snapshot. Votes, parliamentary seats, and coalition arithmetic are separate stages. Begin with `STEP2_run_forecast.ipynb` if the electoral tables are already in BigQuery.
+Privacy-prepared copy of the uploaded v3 project, the two STEP notebooks, the electoral CSV package, and the separately uploaded result snapshot. Votes, parliamentary seats, and coalition arithmetic are separate stages. Begin with `run_forecast.ipynb` if the electoral tables are already in BigQuery.
 
 This copy removes the owner's cloud project ID, clears notebook outputs and identifying metadata, and uses hidden runtime prompts for project and dataset IDs. The statistical implementation, observed CSVs, numerical result tables, and scenario assumptions are preserved. **Privacy preparation is not statistical validation or verification of the election schedule, sources, or electoral law.** The uploaded results are conditional snapshots, not an updated forecast.
 
