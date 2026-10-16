@@ -1,8 +1,8 @@
 # Serbia parliamentary election forecast: v3 results summary
 
-**Prepared:** 16 October 2026. **Run target:** 2026-10-25. **Status:** summary of an archived, scenario-conditional model run.
+**Prepared:** 16 October 2026. **Run target:** 2026-10-25. **Status:** summary of an archived, scenario conditional model run.
 
-This report combines the model and configuration in `serbia_forecast_v3.zip` with the newest supplied results archive, `forecast_outputs (1).zip`. No new polls were added and no forecast was rerun to prepare this summary. The newer archive extends the earlier standalone `forecast_outputs.zip` with local-election tables and additional scenario variants. Its core baseline is unchanged. The added G tables and two explicit multi-list scenario variants require supplementary generation code for complete reproduction, which is not identified in the supplied v3 source.
+This report combines the model and configuration in `serbia_forecast_v3.zip` with the newest supplied results archive, `forecast_outputs (1).zip`. No new polls were added and no forecast was rerun to prepare this summary. The newer archive extends the earlier standalone `forecast_outputs.zip` with local election tables and additional scenario variants. Its core baseline is unchanged. The added G tables and two explicit multi list scenario variants require supplementary generation code for complete reproduction, which is not identified in the supplied v3 source.
 
 **The archived baseline is a close contest.** The SNS-led list has a median valid-vote share of **41.5%**, compared with **41.3%** for the student-backed list. Both have **109 median seats**, below the configured majority requirement of **126**. The uncertainty ranges overlap substantially. Coalition arithmetic depends heavily on SPS, other threshold-adjacent lists, and the assumed participation of minority lists.
 
