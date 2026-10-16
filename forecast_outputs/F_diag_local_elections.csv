@@ -1,0 +1,13 @@
+quantity,value
+n municipalities used,10
+mean change (pp),-7.0070856200000025
+between-municipality SD (pp),4.4042966517566065
+80% interval for the mean (pp),-8.93 to -5.08
+80% predictive interval for a NEW municipality (pp),-13.40 to -0.62
+95% interval for the mean (pp),-10.16 to -3.86
+95% predictive interval for a NEW municipality (pp),-17.46 to 3.44
+slope of change on turnout change (pp per pp),-0.797692048349914
+slope 95% CI,-1.62 to 0.03
+leave-one-out slope range,-1.09 to -0.60
+Spearman rho,-0.6727272727272726
+difference-in-differences / event study,not identified: no municipality without a local election is observed after the baseline in the same outcome

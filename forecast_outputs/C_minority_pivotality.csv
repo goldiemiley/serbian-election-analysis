@@ -1,0 +1,5 @@
+event,probability
+incumbent bloc (cfg incumbent_bloc_list_keys) reaches the majority without minority lists,0.282
+all other non-minority lists together reach the majority without minority lists,0.34675
+neither reaches the majority without minority lists (minority seats are pivotal),0.37125
+minority lists hold at least as many seats as the margin needed by the larger side,0.37125
