@@ -518,8 +518,6 @@ The objective is a statistically defensible electoral forecast, not a model desi
 
 **Start with the analytical architecture and Stage 0, not with an unexplained final prediction.**
 
-First:
-
 1. Review my existing BigQuery query.
 2. Explain the dataset structure and its analytical potential.
 3. Identify what the existing data can and cannot support.
