@@ -1,4 +1,4 @@
-# Research leads — what to obtain, and what it would change
+# Research leads: what to obtain, and what it would change
 
 These are the inputs that the forecast needs and does not have. Each one is stated as a task, with the stage it would improve and the file it goes into. Nothing here has been done or assumed: the model currently uses a labelled analyst assumption where an item is missing. Source ids (S01…) refer to `config/cfg_source_register.csv`.
 
