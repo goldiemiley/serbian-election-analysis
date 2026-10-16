@@ -18,16 +18,6 @@ This copy removes the owner's cloud project ID, clears notebook outputs and iden
 | `docs/README_UPSTREAM.md`, `ARCHITECTURE.md`, `RESEARCH_LEADS.md` | Supplied methodological documentation and limitations. |
 | `UPLOAD_TO_GITHUB.md`, `PRIVACY_REVIEW.md` | Upload instructions and the scope of the privacy review. |
 
-## Google Colab
-
-1. Open [Google Colab](https://colab.research.google.com/). Choose **File → Upload notebook** and select `STEP2_run_forecast.ipynb` from the extracted folder.
-2. Run the configuration cell. Enter your existing Google Cloud **project ID** and BigQuery **dataset ID** in the hidden prompts. The location defaults to **EU**. These identifiers are not written into the source cell.
-3. Run the setup cell. When asked for a ZIP, select `Serbia_GitHub_Ready.zip`, or the source ZIP downloaded from your private repository. Both folder names are supported. Authenticate through Google's own Colab prompt.
-4. Review the external CSVs and the model/legal parameters before running all stages. The supplied notebook builds or replaces working/configuration tables and can import external tables; existing raw electoral data need not be reloaded.
-5. Keep the executed Colab copy private. Before uploading an updated notebook, clear **all outputs**, save a new copy, and check it with `python3 tools/privacy_check.py`. An error message from BigQuery can disclose a project ID even though the inputs were hidden.
-
-If your raw tables have not been loaded, open `STEP1_load_data.ipynb` first, enter the identifiers privately, and select the same cleaned ZIP when prompted. It locates the included `election_totals.csv` and its schema folder. It replaces tables in the dataset you select.
-
 ## Optional local checks
 
 Run commands in a terminal opened inside this repository:
