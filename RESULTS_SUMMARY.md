@@ -29,7 +29,7 @@ The realignment mixture assumes mean transfers of **0%, 10%, or 25% of the SPS p
 
 Polling observations and roster entries were imported from secondary sources. Their presence in the project does not independently establish the accuracy of the original publications or the official status of each configured list.
 
-Sources: [G_baseline_definition.csv](results/G_baseline_definition.csv), [F_diag_polls.csv](results/F_diag_polls.csv), [run_metadata.json](results/run_metadata.json).
+Sources: [G_baseline_definition.csv](sample_outputs/G_baseline_definition.csv), [F_diag_polls.csv](sample_outputs/F_diag_polls.csv), [run_metadata.json](sample_outputs/run_metadata.json).
 
 ## 2. National votes and vote shares
 
@@ -60,11 +60,11 @@ The probability of receiving the most votes is **50.6% for the SNS-led list** an
 
 The two leading median shares differ by only **0.16 percentage points**. That difference is small relative to the uncertainty intervals and the changes caused by omitting individual pollsters. Marginal medians and interval endpoints do not have to sum to 100%; simulation mean shares do sum to 100% before display rounding.
 
-![Archived national vote-share distributions](results/fig_A_national_shares.png)
+![Archived national vote-share distributions](sample_outputs/fig_A_national_shares.png)
 
 The archived chart displays selected lists; the table includes all configured lists. The dotted 3% line uses valid-vote share for visual reference and is not the statutory threshold denominator.
 
-Sources: [A_national_votes_shares_seats.csv](results/A_national_votes_shares_seats.csv).
+Sources: [A_national_votes_shares_seats.csv](sample_outputs/A_national_votes_shares_seats.csv).
 
 ## 3. Parliamentary seats and threshold risk
 
@@ -91,9 +91,9 @@ A tie for the most seats counts for both lists in the seat-leadership probabilit
 
 A reported central 95% seat range of 0–0 for a very small list can coexist with a small nonzero representation probability: rare positive-seat outcomes fall outside that central interval. The CSV contains unrounded values.
 
-![Archived seat distributions for polled lists](results/fig_B_seat_distributions.png)
+![Archived seat distributions for polled lists](sample_outputs/fig_B_seat_distributions.png)
 
-Sources: [A_national_votes_shares_seats.csv](results/A_national_votes_shares_seats.csv), [B_seat_majority_probabilities.csv](results/B_seat_majority_probabilities.csv), [B_threshold_votes.csv](results/B_threshold_votes.csv).
+Sources: [A_national_votes_shares_seats.csv](sample_outputs/A_national_votes_shares_seats.csv), [B_seat_majority_probabilities.csv](sample_outputs/B_seat_majority_probabilities.csv), [B_threshold_votes.csv](sample_outputs/B_threshold_votes.csv).
 
 ### SPS is an important threshold sensitivity
 
@@ -106,7 +106,7 @@ The SPS-led list's median valid-vote share is above the threshold, but its lower
 
 These are conditional subsets of the same simulations. They do not isolate the causal effect of removing SPS: poll strength, assumed voter movements, and other list outcomes also differ between the subsets. Coalition probabilities describe the configured collection of coalitions, not the probability that a government agreement will be signed.
 
-Sources: [E_conditional_on_threshold.csv](results/E_conditional_on_threshold.csv), [E_threshold_sweeps.csv](results/E_threshold_sweeps.csv).
+Sources: [E_conditional_on_threshold.csv](sample_outputs/E_conditional_on_threshold.csv), [E_threshold_sweeps.csv](sample_outputs/E_threshold_sweeps.csv).
 
 ## 4. Minority lists and phi
 
@@ -128,7 +128,7 @@ The configured SNS+SPS bloc reaches a majority without minority lists in **28.2%
 
 **Phi describes turnout responsiveness, not coalition loyalty.** Phi = 0 leaves historical minority-group vote pools unchanged by the change in national valid votes, apart from other modeled shocks and within-group competition. Phi = 1 scales those historical pools proportionally to national valid votes. The baseline draws phi uniformly between 0 and 1. Prior-only lists have a separate vote prior and do not follow that historical-pool formula. Neither value means that minority parties support SNS or the students.
 
-Sources: [A_national_votes_shares_seats.csv](results/A_national_votes_shares_seats.csv), [C_bloc_seat_quantiles.csv](results/C_bloc_seat_quantiles.csv), [C_minority_pivotality.csv](results/C_minority_pivotality.csv), [G_scenario_guide.csv](results/G_scenario_guide.csv).
+Sources: [A_national_votes_shares_seats.csv](sample_outputs/A_national_votes_shares_seats.csv), [C_bloc_seat_quantiles.csv](sample_outputs/C_bloc_seat_quantiles.csv), [C_minority_pivotality.csv](sample_outputs/C_minority_pivotality.csv), [G_scenario_guide.csv](sample_outputs/G_scenario_guide.csv).
 
 ## 5. Coalition majorities and government formation
 
@@ -159,9 +159,9 @@ The source labels such as “plausible by precedent” describe model configurat
 
 At least one incumbent-anchored option has a majority in **63.9%** of draws; at least one student-anchored option does in **68.6%**. These events overlap. The zero count for “neither” reflects the breadth of the allowed combinations and does not rule out negotiations failing, conflicting demands, or political deadlock. The model does not estimate the invitation process or bargaining outcomes.
 
-![Majority probabilities for the configured coalitions](results/fig_C_coalitions.png)
+![Majority probabilities for the configured coalitions](sample_outputs/fig_C_coalitions.png)
 
-Sources: [C_coalitions.csv](results/C_coalitions.csv), [C_government_formation_conditional.csv](results/C_government_formation_conditional.csv).
+Sources: [C_coalitions.csv](sample_outputs/C_coalitions.csv), [C_government_formation_conditional.csv](sample_outputs/C_government_formation_conditional.csv).
 
 ## 6. Turnout and recent local elections
 
@@ -197,11 +197,11 @@ Aranđelovac is marked `excluded_reconciliation_failure` in the extended G table
 
 Local-versus-parliamentary comparisons do not identify a causal effect of holding a local election. The baseline municipal map uses alpha = 0; alternative alpha maps do not establish how much local swing should carry into the national election.
 
-![Local turnout compared with the parliamentary baseline](results/fig_G_turnout_local_vs_parliamentary.png)
+![Local turnout compared with the parliamentary baseline](sample_outputs/fig_G_turnout_local_vs_parliamentary.png)
 
 Orange markers show observed local turnout. Green markers show the model projection calibrated to the user participation range. The diagonal marks equal turnout in both elections; the right panel reports observed local-minus-parliamentary gaps.
 
-Sources: [G_turnout_levels_by_group.csv](results/G_turnout_levels_by_group.csv), [G_turnout_local_vs_parliamentary_by_municipality.csv](results/G_turnout_local_vs_parliamentary_by_municipality.csv), [G_local_swing_by_municipality.csv](results/G_local_swing_by_municipality.csv), [G_local_swing_summary.csv](results/G_local_swing_summary.csv), [F_diag_local_elections.csv](results/F_diag_local_elections.csv).
+Sources: [G_turnout_levels_by_group.csv](sample_outputs/G_turnout_levels_by_group.csv), [G_turnout_local_vs_parliamentary_by_municipality.csv](sample_outputs/G_turnout_local_vs_parliamentary_by_municipality.csv), [G_local_swing_by_municipality.csv](sample_outputs/G_local_swing_by_municipality.csv), [G_local_swing_summary.csv](sample_outputs/G_local_swing_summary.csv), [F_diag_local_elections.csv](sample_outputs/F_diag_local_elections.csv).
 
 ## 7. Which assumptions change the result?
 
@@ -249,7 +249,7 @@ Within the requested 4.3–4.4 million participation range, both leading median 
 
 Phi = 0 and phi = 1 minority scenarios also leave the main contest close. They change minority vote pools and some coalition arithmetic, rather than assigning minority voters or parties to a governing camp.
 
-Sources: [E_scenario_comparison.csv](results/E_scenario_comparison.csv), [G_scenario_guide.csv](results/G_scenario_guide.csv), [E_threshold_sweeps.csv](results/E_threshold_sweeps.csv).
+Sources: [E_scenario_comparison.csv](sample_outputs/E_scenario_comparison.csv), [G_scenario_guide.csv](sample_outputs/G_scenario_guide.csv), [E_threshold_sweeps.csv](sample_outputs/E_threshold_sweeps.csv).
 
 ## 8. Validation evidence and its limits
 
@@ -267,7 +267,7 @@ The carry-forward comparator does not impose the known later national totals and
 
 The delivered market diagnostic contains Polymarket quotes with incomplete question/resolution information. It does not establish a comparable Meridianbet series or verified liquidity. Those quotes are not used as vote shares or as independent confirmation of the forecast.
 
-Sources: [F_backtest_geography_methods.csv](results/F_backtest_geography_methods.csv), [F_backtest_new_list_geography.csv](results/F_backtest_new_list_geography.csv), [F_diag_market_quotes.csv](results/F_diag_market_quotes.csv).
+Sources: [F_backtest_geography_methods.csv](sample_outputs/F_backtest_geography_methods.csv), [F_backtest_new_list_geography.csv](sample_outputs/F_backtest_new_list_geography.csv), [F_diag_market_quotes.csv](sample_outputs/F_diag_market_quotes.csv).
 
 ## 9. Checks performed for this summary
 
@@ -304,18 +304,13 @@ The report and `results/` folder can be uploaded together at the repository root
 
 Useful starting points:
 
-- [National vote and seat distributions](results/A_national_votes_shares_seats.csv)
-- [Seat-leadership and standalone-majority events](results/B_seat_majority_probabilities.csv)
-- [Configured coalition combinations](results/C_coalitions.csv)
-- [Overlapping coalition-majority events](results/C_government_formation_conditional.csv)
-- [Scenario results](results/E_scenario_comparison.csv) and [their definitions](results/G_scenario_guide.csv)
-- [Local turnout and results](results/G_local_swing_by_municipality.csv)
-- [Run settings](results/run_metadata.json) and [output manifest](results/OUTPUT_MANIFEST.csv)
+- [National vote and seat distributions](sample_outputs/A_national_votes_shares_seats.csv)
+- [Seat-leadership and standalone-majority events](sample_outputs/B_seat_majority_probabilities.csv)
+- [Configured coalition combinations](sample_outputs/C_coalitions.csv)
+- [Overlapping coalition-majority events](sample_outputs/C_government_formation_conditional.csv)
+- [Scenario results](sample_outputs/E_scenario_comparison.csv) and [their definitions](sample_outputs/G_scenario_guide.csv)
+- [Local turnout and results](sample_outputs/G_local_swing_by_municipality.csv)
+- [Run settings](sample_outputs/run_metadata.json) and [output manifest](sample_outputs/OUTPUT_MANIFEST.csv)
 
 The target date is recorded in the archived run. An [RIK training-plan page](https://www.rik.parlament.gov.rs/tekst/475144/plan-sprovodjenja-obuka-birackih-odbora-u-stalnom-i-prosirenom-sastavu-za-izbore-za-narodne-poslanike-narodne-skupstine-raspisane-za-25-oktobar-2026-godine.php), consulted on 16 October 2026, also identifies the election scheduled for 25 October 2026. This date check does not authenticate the separately imported polling, political-event, roster, or voter-register records.
 
-Archive fingerprints:
-
-- `serbia_forecast_v3.zip`: `4dff4fbe74511446466da380c33016399067304a2ef3a063bb9b7b4f541eb8ad`
-
-- `forecast_outputs (1).zip`: `4d2b9fc28797507e452ba0a11bcc1d8789e952c4725c109902c2be17ad6d3e59`
