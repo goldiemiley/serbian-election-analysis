@@ -1,0 +1,8 @@
+event,probability
+incumbent-anchored coalition has a majority,0.6386
+student-anchored coalition has a majority,0.6856
+only an incumbent-anchored coalition has a majority,0.3144
+only a student-anchored coalition has a majority,0.3614
+both kinds have a majority (order of invitation not modelled),0.3242
+neither kind has a majority among the listed coalitions,0.0
+any listed coalition (incl. mathematical-only) has a majority,1.0

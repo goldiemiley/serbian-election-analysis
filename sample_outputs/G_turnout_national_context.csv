@@ -1,0 +1,12 @@
+quantity,value,source
+turnout parliamentary_2023,0.5877468554760389,database: election_totals (leaf units)
+valid votes parliamentary_2022,3693328.0,database: list_votes (no turnout totals in the package)
+valid votes parliamentary_2023 / parliamentary_2022 (proxy for the change in participation),1.004778887767347,database
+"user scenario: participating voters, low end",4300000.0,"cfg_parameters.turnout_voters_low (user scenario, not a forecast)"
+"user scenario: participating voters, high end",4400000.0,"cfg_parameters.turnout_voters_high (user scenario, not a forecast)"
+register 2026 (secondary report),6450523.0,cfg_parameters.register_total_2026
+"turnout implied by the scenario, low end (voters / register 2026)",0.6666126142019803,derived
+"turnout implied by the scenario, high end (voters / register 2026)",0.68211523313691,derived
+"implied increase over the baseline parliamentary turnout, mid-range (pp)",8.661706819340619,derived
+"local elections, pooled turnout over 13 municipalities",0.6626591509322401,database: election_totals
+"same 13 municipalities, parliamentary baseline, pooled turnout",0.5820956388057286,database: s2_unit_panel

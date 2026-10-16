@@ -1,0 +1,14 @@
+election_id,municipality,local_round,members_complete,n_members_documented,sns_is_alone,SNS,SPS,SRS,PUPS,ZAVETNICI,SNP,JS,PS,VMSZ,ZDRAVA_SRBIJA,ZS
+local_2025_70831,Mionica,local_round_nov2025,False,0,False,,,,,,,,,,,
+local_2025_70840,Negotin,local_round_nov2025,True,4,False,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+local_2025_80373,Sečanj,local_round_nov2025,False,0,False,,,,,,,,,,,
+local_2026_70033,Aranđelovac,local_round_mar2026,True,6,False,1.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0
+local_2026_70068,Bajina Bašta,local_round_mar2026,True,5,False,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+local_2026_70327,Bor,local_round_mar2026,True,4,False,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+local_2026_70572,Kladovo,local_round_mar2026,True,3,False,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+local_2026_70602,Knjaževac,local_round_mar2026,True,5,False,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+local_2026_70742,Lučani,local_round_mar2026,True,5,False,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+local_2026_70785,Majdanpek,local_round_mar2026,True,3,False,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+local_2026_71102,Smederevska Palanka,local_round_mar2026,True,6,False,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
+local_2026_71366,Sevojno,local_round_mar2026,False,0,False,,,,,,,,,,,
+local_2026_80233,Kula,local_round_mar2026,True,5,False,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0

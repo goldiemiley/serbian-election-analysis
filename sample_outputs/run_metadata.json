@@ -1,0 +1,24 @@
+{
+  "random_seed": 20261014,
+  "n_simulations": 20000,
+  "n_unit_draws": 400,
+  "election_target_date": "2026-10-25",
+  "turnout_range": [
+    4300000,
+    4400000
+  ],
+  "threshold_denominator": "voters_turned_out",
+  "minority_uplift_scope": "all_minority",
+  "last_poll_date": "2026-09-20",
+  "mixture_active": true,
+  "n_events_after_last_poll": 9,
+  "poll_houses": [
+    "CRTA with Democracy Action Lab (Stanford)",
+    "Faktor plus",
+    "NSPM (Nova srpska politicka misao)"
+  ],
+  "python": "3.13.16",
+  "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5"
+}

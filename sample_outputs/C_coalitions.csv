@@ -1,0 +1,10 @@
+coalition_id,coalition_name,assumption_set,plausibility,n_member_lists,p_majority,seats_p05,seats_median,seats_p95,p_anchor_largest_list,status
+C01,SNS-led list alone,all,mathematical_only,1,0.06405,93.0,109.0,127.0,0.5173,analyst_scenario__not_an_estimate
+C02,SNS-led list + SPS-led list,incumbent_anchored,plausible_by_precedent,2,0.282,102.0,119.0,137.0,0.5173,analyst_scenario__not_an_estimate
+C03,SNS-led + SPS-led + all minority lists,incumbent_anchored,assumed,11,0.61655,111.0,129.0,147.0,0.5173,analyst_scenario__not_an_estimate
+C04,SNS-led + SPS-led + Autenticna desnica,incumbent_anchored,assumed,3,0.43165,106.0,124.0,141.0,0.5173,analyst_scenario__not_an_estimate
+C05,Student list alone,all,mathematical_only,1,0.06695,92.0,109.0,127.0,0.50335,analyst_scenario__not_an_estimate
+C06,Student list + Evropska Srbija,student_anchored,assumed,2,0.2076,99.0,117.0,135.0,0.50335,analyst_scenario__not_an_estimate
+C07,Student list + Evropska Srbija + all minority lists,student_anchored,assumed,11,0.5282,109.0,126.0,144.0,0.50335,analyst_scenario__not_an_estimate
+C08,Student list + every list except the SNS-led and SPS-led lists,student_anchored,assumed,16,0.6856,113.0,131.0,148.0,0.50335,analyst_scenario__not_an_estimate
+C09,Every list except the student list,mathematical_only,mathematical_only,17,0.91995,123.0,141.0,158.0,0.5173,analyst_scenario__not_an_estimate

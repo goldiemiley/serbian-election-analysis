@@ -1,0 +1,70 @@
+file,stage,description
+A_national_votes_shares_seats.csv,Stages 5-9,"A/B. National votes, share of valid votes and seats per list: median, mean, intervals, P(takes part), P(any seat)"
+B_seat_majority_probabilities.csv,Stage 9,B. Probability of most seats / absolute majority by list
+B_seat_distribution_polled_lists.csv,Stage 9,B. Full distribution of seats for the polled lists
+B_threshold_sensitivity.csv,Stage 9,"B. Seats and P(takes part) for every threshold base x uplift scope, same draws"
+B_threshold_votes.csv,Stage 9,B. Votes needed for 3 percent under the configured base
+C_coalitions.csv,Stage 10,C. Majority probability of each named coalition (cfg_coalitions); compatibility is an analyst assumption
+C_government_formation_conditional.csv,Stage 10,C. Conditional government-formation probabilities by assumption set
+C_minority_pivotality.csv,Stage 10,C. Can either side reach the majority without minority lists?
+C_bloc_seat_quantiles.csv,Stage 10,"C. Seat quantiles of the incumbent bloc, other non-minority lists and minority lists"
+E_scenario_comparison.csv,Stage 11,"E. Baseline and sensitivity scenarios: shares, seats, threshold, coalition arithmetic"
+E_threshold_sweeps.csv,Stage 9/11,"E. Shift in poll strength of near-threshold lists vs threshold crossing, seats and coalition majorities"
+D_municipal_list_shares_alpha0.csv,Stage 8,D. Unit x list expected share of valid votes with intervals and P(first); local-election carry-over alpha=0
+D_municipal_turnout.csv,Stage 3,D. Unit turnout: 2023 baseline vs 2026 scenario mean and interval
+D_municipal_alpha_grid_local_units.csv,Stage 4/8,D. Expected shares in municipalities with a recent local election under the alpha grid (alpha is NOT identified)
+E_municipal_geography_sensitivity.csv,Stage 8/11,"E. Number of municipalities expected to be won, and interval width, by geography method and dispersion multiplier"
+D_unit_contributions_to_national_change.csv,Stage 8,D. Each unit: expected votes vs 2023 origin-family votes and its share of the national net change and of the national variance
+E_conditional_on_threshold.csv,Stage 9/11,E. Outcomes conditional on each near-threshold list taking part or missing the threshold
+E_forecast_timeline_polls.csv,Stage 5/13,E. Poll-based aggregate as it would have looked at each publication date
+F_diag_polls.csv,Stage 5,F. Poll panel summary and aggregate
+F_diag_poll_vs_structural.csv,Stage 5/11,F. Poll posterior vs 2023 baseline vs local-election signal (cross-check)
+F_diag_implied_flows.csv,Stage 6,"F. Implied votes vs 2023 origin pools (accounting, not transitions)"
+F_diag_implied_flows_totals.csv,Stage 6,F. Participation and student-pool arithmetic
+F_diag_market_quotes.csv,Stage 5,F. Prediction-market quotes (validation only)
+F_diag_market_model_side.csv,Stage 5,F. Model-side quantities to compare with the quotes by eye (definitions differ)
+F_diag_events_after_last_poll.csv,Stage 5,F. Events that trigger the realignment mixture (dated after the last poll)
+F_diag_turnout_methods_by_unit.csv,Stage 3,F. Unit turnout under three allocation methods at the middle of the range
+F_diag_turnout_methods_by_region.csv,Stage 3,F. Regional turnout under three allocation methods
+F_diag_local_elections.csv,Stage 4,F. What recent local elections can and cannot tell (descriptive)
+F_diag_swing_dispersion_2022_2023.csv,Stage 6,F. Unit and region dispersion of the 2022->2023 swing by family
+F_backtest_geography_methods.csv,Stage 12,F. Backtest B1: downscaling methods 2022->2023
+F_backtest_new_list_geography.csv,Stage 12,F. Backtest B2: geography assumptions for new lists
+F_backtest_leave_region_out_dispersion.csv,Stage 12,F. Backtest B3: leave-one-region-out dispersion calibration
+run_metadata.json,all,"Seed, sizes and software versions of this run"
+fig_A_national_shares.png,Stage 13,A. National vote shares with 80% and 95% intervals
+fig_B_seat_distributions.png,Stage 13,B. Seat distributions
+fig_B_threshold_sensitivity.png,Stage 13,B. Threshold sensitivity
+fig_C_coalitions.png,Stage 13,C. Majority probability by coalition
+fig_E_scenarios.png,Stage 13,E. Scenario comparison
+fig_E_threshold_sweeps.png,Stage 13,E. Threshold sweeps
+fig_D_municipal.png,Stage 13,D. Municipal expected shares and turnout
+fig_5_polls.png,Stage 13,Polls vs aggregate
+fig_12_backtest.png,Stage 12,Backtest of downscaling methods
+fig_F_outcome_probabilities.png,Stage 13,F. Probability of each electoral outcome
+fig_F_turnout_sensitivity.png,Stage 13,F. Turnout sensitivity
+fig_D_unit_contributions.png,Stage 13,D. Units contributing most to the national change
+fig_F_forecast_timeline.png,Stage 13,F. Poll-based forecast over time
+G_turnout_by_election.csv,Stage 14,"G1. Turnout, registered voters and valid votes of every election in the dataset, by election type"
+G_turnout_local_vs_parliamentary_by_municipality.csv,Stage 14,G1. Local vs parliamentary baseline turnout in each municipality with a recent local election (and the model forecast)
+G_turnout_levels_by_group.csv,Stage 14,G1. Turnout level for comparable sets of units: parliamentary baseline vs local elections
+G_turnout_gap_summary.csv,Stage 14,"G1. Local-minus-parliamentary turnout gap: mean, median, pooled, by round and region"
+G_turnout_national_context.csv,Stage 14,"G1. National turnout context: baseline, 2022 valid-vote proxy, the user scenario and what it implies"
+G_local_list_results.csv,Stage 14,"G2. Every list of every recent local election: votes, mandates, shares, rank, name-hint class (unverified)"
+G_local_votes_by_class_and_municipality.csv,Stage 14,G2. Votes and shares by name-hint class in each municipality
+G_local_votes_by_class_pooled.csv,Stage 14,"G2. Votes and pooled shares by name-hint class, all local elections"
+G_local_swing_by_municipality.csv,Stage 14,G2. Lead list and main challenger against the parliamentary baseline; split of the change into turnout and share
+G_local_swing_summary.csv,Stage 14,"G2. Summary of the municipal swings: all, by round, with / without a student-name-hint list (thin samples flagged)"
+G_local_family_hint_swings.csv,Stage 14,G2. Separately contesting lists with a name hint against the baseline family in the same municipality
+G_local_joint_lists_excluded.csv,Stage 14,G2. Joint lists left out of the family comparison
+G_local_municipalities_vs_national_baseline.csv,Stage 14,G2. Are the local-election municipalities typical? Their pooled baseline shares against the national baseline
+G_scenario_guide.csv,Stage 14,"G3. Every scenario: group, what it changes in plain language, results relative to the baseline"
+G_baseline_definition.csv,Stage 14,"G3. The baseline, component by component, with the source of each setting"
+G_sns_coalition_membership.csv,Stage 14,"G2b. Which parties sit in the local lead list (documented members; empty = unknown, not absent)"
+G_sns_core_by_municipality.csv,Stage 14,"G2b. Local lead list with its coalition partners taken out (bracket by partner retention), against the baseline SNS-led list"
+G_sns_partner_baselines.csv,Stage 14,"G2b. What each coalition partner polled on its own in the baseline in each municipality, and how it is treated"
+G_sns_core_summary.csv,Stage 14,G2b. Summary over municipalities: raw lead list vs SNS core (headline and lower bound)
+fig_G_turnout_local_vs_parliamentary.png,Stage 14,"G. Local vs parliamentary turnout by municipality, with the model forecast for 2026"
+fig_G_local_swing.png,Stage 14,"G. Lead-list share and change in support, local vs baseline, by municipality"
+fig_G_scenarios_vs_baseline.png,Stage 14,G. Every scenario against the baseline: change in P(most seats) and in the student-list share
+fig_G_sns_core.png,Stage 14,"G2b. Local lead list with and without its coalition partners against the baseline SNS-led list, by municipality"
